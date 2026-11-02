@@ -226,3 +226,6 @@ h1 em{color:var(--coral)}
 .p-body .link{display:inline-flex;align-items:center;min-height:44px}
 .mail{display:inline-flex;align-items:center;min-height:48px}
 .foot a{display:inline-flex;align-items:center;min-height:44px}
+.project .shot.vid,.project .shot.vid:hover{background:none;border:0;box-shadow:none;overflow:visible;transform:none;justify-self:center;align-self:center;width:100%;max-width:300px;margin:0 auto}
+.shot.vid video{width:100%;aspect-ratio:9/16;object-fit:cover;border-radius:18px;background:#111;display:block;border:1px solid var(--ink);box-shadow:12px 12px 0 var(--ink)}
+@media(max-width:700px){.shot.vid video{box-shadow:8px 8px 0 var(--ink)}.project .shot.vid{max-width:280px}}
