@@ -132,7 +132,8 @@ h1 em{color:var(--coral)}
 .shot img{width:100%;aspect-ratio:16/10;object-fit:cover;transition:transform .8s}
 .shot:hover img{transform:scale(1.03)}
 .p-kicker{font-family:var(--mono);font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--coral);margin-bottom:10px}
-.p-body h3{font-family:var(--serif);font-weight:500;font-size:clamp(32px,3.4vw,46px);letter-spacing:-.03em;line-height:1.05;margin-bottom:14px}
+.p-head{grid-column:1/-1;margin-bottom:calc(-1*clamp(8px,2vw,30px))}
+.p-head h3,.p-body h3{font-family:var(--serif);font-weight:500;font-size:clamp(32px,3.4vw,46px);letter-spacing:-.03em;line-height:1.05;margin-bottom:14px}
 .p-body>p{color:var(--ink-2)}
 .p-body dl{margin:20px 0 22px;display:grid;gap:6px}
 .p-body dt{font-family:var(--mono);font-size:12px;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);margin-top:8px}
