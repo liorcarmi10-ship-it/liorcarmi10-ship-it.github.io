@@ -19,7 +19,7 @@ em{font-style:italic}
 .nav{position:sticky;top:0;z-index:50;display:flex;align-items:center;justify-content:space-between;gap:24px;padding:16px clamp(20px,4vw,48px);
   background:color-mix(in srgb,var(--paper) 82%,transparent);backdrop-filter:blur(12px);border-bottom:1px solid transparent;transition:border-color .3s}
 .nav.scrolled{border-bottom-color:var(--line)}
-.logo{font-family:var(--serif);font-size:26px;font-weight:600;text-decoration:none;letter-spacing:-.02em}
+.logo{font-family:var(--serif);font-size:24px;font-weight:600;text-decoration:none;letter-spacing:-.02em;white-space:nowrap;display:inline-flex;align-items:center;min-height:44px}
 .logo em{color:var(--coral);font-weight:400}
 .nav nav{display:flex;gap:28px}
 .nav nav a{font-size:14px;text-decoration:none;color:var(--ink-2);position:relative}
@@ -217,3 +217,11 @@ h1 em{color:var(--coral)}
 }
 .edu-single{grid-template-columns:1fr !important;max-width:760px}
 .desk-note{margin-top:10px;font-size:13px;color:var(--muted);font-style:italic}
+
+/* Nov 2 copy pass: name logo + tap targets */
+.logo{gap:.22em}
+.btn-small{min-height:44px;display:inline-flex;align-items:center}
+.nav nav a{display:inline-flex;align-items:center;min-height:44px}
+.p-body .link{display:inline-flex;align-items:center;min-height:44px}
+.mail{display:inline-flex;align-items:center;min-height:48px}
+.foot a{display:inline-flex;align-items:center;min-height:44px}
